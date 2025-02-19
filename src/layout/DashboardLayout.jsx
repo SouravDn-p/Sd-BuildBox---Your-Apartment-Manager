@@ -133,9 +133,9 @@ const DashboardLayout = () => {
   }
 
   return (
-    <div className="flex min-h-screen bg-gray-900">
+    <div className="flex min-h-screen bg-gradient-to-br from-indigo-800 via-purple-900 to-black">
       <aside
-        className={`fixed top-0 left-0 h-full bg-gray-900 text-white shadow-md z-40 transition-transform ${
+        className={`fixed top-0 left-0 h-full bg-gradient-to-br from-indigo-900 to-purple-900 text-white  shadow-md z-40 transition-transform ${
           isSidebarVisible ? "translate-x-0" : "-translate-x-full"
         } md:translate-x-0 md:relative w-64 flex flex-col`}
       >

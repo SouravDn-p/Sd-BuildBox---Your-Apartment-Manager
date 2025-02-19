@@ -111,7 +111,7 @@ const ApartmentCard = ({ apartment }) => {
   }
   return (
     <>
-      <div className="card bg-base-100 shadow-xl relative">
+      <div className="card bg-base-300 shadow-xl relative">
         <div
           className={`absolute top-2 right-2 px-2 py-1 rounded-lg text-white text-xs font-bold ${
             apartment.bookingStatus === "available"
