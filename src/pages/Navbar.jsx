@@ -32,12 +32,9 @@ const Navbar = () => {
 
   const isDashboard = location.pathname === "/dashboard";
   return (
-    <div
-      className="mx-auto bg-gradient-to-br from-indigo-800 via-indigo-800 to-purple-900"
-      style={{ backgroundColor: "#2368cf" }}
-    >
+    <div className="mx-auto">
       {!isDashboard && (
-        <div className="navbar bg-opacity-30  w-full bg-black text-white">
+        <div className="navbar fixed z-10 bg-gradient-to-br from-indigo-900 via-purple-800 to-purple-800 text-white">
           <div className="navbar-start">
             <div className="dropdown">
               <div
