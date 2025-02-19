@@ -1,6 +1,8 @@
 # sdBuildBox - Apartment Booking Management System
 
 **Website Name**: sdBuildBox  
+**Admin Username**: sdsouravdebnath280@gmail.com  
+**Admin Password**: amijeKe123  
 **Live Site URL**: [[Insert live URL here](https://sd-buildbox.web.app/)]
 
 ## Features:
