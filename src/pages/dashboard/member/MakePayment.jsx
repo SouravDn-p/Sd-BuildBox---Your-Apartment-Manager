@@ -55,9 +55,9 @@ const MakePayment = () => {
   }
 
   return (
-    <section className="bg-slate-700 h-screen">
+    <section className="bg-gradient-to-br from-purple-900 via-purple-800 to-gray-900 h-screen">
       <div className="pt-24 px-4">
-        <div className="bg-slate-700 p-6 rounded-lg shadow-lg">
+        <div className="bg-gradient-to-br from-purple-900 via-purple-800 to-gray-900 p-6 rounded-lg shadow-lg">
           <h2 className="text-3xl font-bold mb-6 text-white text-center">
             My Agreement
           </h2>

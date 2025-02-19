@@ -4,7 +4,7 @@ const Announcements = () => {
   const announcements = useLoaderData();
   console.log(announcements);
   return (
-    <div className="bg-slate-700 min-h-screen text-white p-6 rounded shadow">
+    <div className="bg-gradient-to-br from-purple-900 via-purple-800 to-gray-900 min-h-screen text-white p-6 rounded shadow">
       <h2 className="text-2xl font-bold mb-4">Announcements</h2>
       <ul className="space-y-4">
         {announcements.map((announcement) => (

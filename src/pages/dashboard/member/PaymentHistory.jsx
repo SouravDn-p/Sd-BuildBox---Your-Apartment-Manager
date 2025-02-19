@@ -18,7 +18,7 @@ const PaymentHistory = () => {
   };
 
   return (
-    <div className="bg-gradient-to-r from-gray-800 to-gray-900 py-8 px-4 md:px-12 lg:px-24 h-auto min-h-screen rounded shadow">
+    <div className="bg-gradient-to-br from-purple-900 via-purple-800 to-gray-900 py-8 px-4 md:px-12 lg:px-24 h-auto min-h-screen rounded shadow">
       <h2 className="text-3xl font-bold text-white mb-6 text-center">
         Payment History
       </h2>

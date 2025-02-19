@@ -1,5 +1,4 @@
 const Announcements = () => {
-  // Example announcements data
   const announcements = [
     {
       id: 1,

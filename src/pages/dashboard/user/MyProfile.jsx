@@ -13,7 +13,7 @@ const MyProfile = () => {
 
   return (
     <div className="bg-white p-6 rounded shadow">
-      <h2 className="text-2xl font-bold mb-4">My Profile</h2>
+      <h2 className="text-2xl font-bold mb-4 ">My Profile</h2>
       <div className="flex items-center space-x-6">
         <img
           src={user.image}
@@ -27,12 +27,12 @@ const MyProfile = () => {
       </div>
       <div className="mt-6 space-y-2">
         <p>
-          <span className="font-semibold">Agreement Date:</span>{" "}
+          <span className="font-semibold">Agreement Date:</span>
           {user.agreementDate}
         </p>
         <p>
-          <span className="font-semibold">Apartment Info:</span> Floor:{" "}
-          {user.apartmentInfo.floor}, Block: {user.apartmentInfo.block}, Room:{" "}
+          <span className="font-semibold">Apartment Info:</span> Floor:
+          {user.apartmentInfo.floor}, Block: {user.apartmentInfo.block}, Room:
           {user.apartmentInfo.roomNo}
         </p>
       </div>

@@ -202,9 +202,9 @@ const AgreementRequests = () => {
   }
 
   return (
-    <section className="bg-slate-700 min-h-screen overflow-x-auto max-h-screen">
+    <section className="bg-purple-900 min-h-screen overflow-x-auto max-h-screen">
       <div className="container mx-auto px-4 pt-24">
-        <div className="bg-slate-700 p-6 rounded-lg shadow-lg">
+        <div className="bg-purple-900 p-6 rounded-lg shadow-lg">
           <h2 className="text-3xl font-bold mb-6 text-white text-center md:text-left">
             Agreement Requests
           </h2>
